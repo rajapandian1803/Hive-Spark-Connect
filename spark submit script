@@ -1,1 +1,2 @@
-/bin/spark-submit  --driver-memory 4G --executor-memory 1G --class com.test.HiveTable --queue <queuename> --master yarn --deploy-mode cluster <path of fat jar with all dependencies inside the jar>
+/bin/spark-submit  --driver-memory 4G --executor-memory 1G --class com.test.HiveTable -
+-queue <queuename> --master yarn --deploy-mode cluster <path of fat jar with all dependencies inside the jar>
